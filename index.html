@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAW-sitive(포지티브) - 반려동물 훈련센터</title>
+
+    <!-- 기본 SEO (Search Engine Otimization) -->
+    <meta name="description" content="PAW-sitive는 포트폴리오 용도로 제작된 가상의 웹사이트 입니다.">
+    <meta name="keywords"
+        content="PAW-sitive, 포지티브, 반려동물 훈련 웹사이트 포트폴리오, 웹디자이너 포트폴리오, 웹디자인포트폴리오, 웹디자인, 포트폴리오, 웹포트폴리오, 서유담 포트폴리오">
+
+    <!-- 고급 SEO -->
+
+    <!-- open graph sns 공유 최적화 -->
+    <meta property="og:title" content="반려동물 훈련센터 PAW-sitive(포지티브)">
+    <meta property="og:description" content="반려동물과 함께 만드는 긍정적인 변화, PAWSitive. - 이 웹사이트는 서유담이 취업 포트폴리오 용도로 만든 웹사이트 입니다.">
+    <!-- <meta property="og:image" content="ttp://www.anook.dothome.co.kr/img/logo_pop.jpg"> -->
+    <meta property="og:url" content="http://www.anook.dothome.co.kr">
+
+    <!-- 파비콘 -->
+    <link rel="icon" sizes="32x32" href="./img/icn/favicon.png" type="image/png">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+
+    <!-- java script -->
+    <script src="./js/header.js"></script>
+
+    <!-- Pretendard -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+    <!-- swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <canvas id="bouncingBalls"></canvas>
+
+    <div class="gnb_modal"></div>
+    <div class="btn_gnb on">
+        <div>
+            <h1 class="logo">
+                <img src="./img/icn/logo-ver.svg" alt="PAW-sitive">
+            </h1>
+            <img src="./img/icn/icn_arrow_closed.svg" alt="화살표">
+        </div>
+    </div>
+    <div class="gnb_wrap ">
+        <section class="gnb_top">
+            <dl class="call">
+                <dt>상담 및 예약 문의</dt>
+                <dd><a href="tel:15004848">1500-4848</a></dd>
+            </dl>
+            <ul class="tnb">
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">로그인</a></li>
+            </ul>
+            <h1 class="mo_logo">
+                <a href="#">
+                    <img src="./img/icn/logo-hor.svg" alt="포지티브">
+                </a>
+            </h1>
+        </section>
+        <section class="gnb_mid">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="gnb_title">
+                            <figure>
+                                <img src="./img/icn/icn_gnb_1.svg" alt="훈련 프로그램">
+                            </figure>
+                            <h3>훈련 프로그램</h3>
+                        </div>
+                        <p>
+                            반려동물의 개별적인 필요와 성격에 맞춘 체계적인 훈련 프로그램을 제공합니다.
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="gnb_title">
+                            <figure>
+                                <img src="./img/icn/icn_gnb_2.svg" alt="자주 묻는 질문">
+                            </figure>
+                            <h3>자주 묻는 질문</h3>
+                        </div>
+                        <p>
+                            훈련 과정부터 상담 절차까지 자주 묻는 질문에 대한 명확한 답변을 확인하세요.
+                        </p>
+                    </a>
+                </li>
+                <li class="pawsitive">
+                    <a href="#">
+                        <figure class="gnb_title">
+                            <img src="./img/icn/icn_gnb_3.svg" alt="포지티브 소개" class="pawsitive_img">
+                        </figure>
+                        <h3>포지티브 소개</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="gnb_title">
+                            <figure>
+                                <img src="./img/icn/icn_gnb_4.svg" alt="갤러리 & 후기">
+                            </figure>
+                            <h3>갤러리 & 후기</h3>
+                        </div>
+                        <p>
+                            훈련의 변화를 보여주는 순간과 고객들의 진솔한 후기를 만나보세요.
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="gnb_title">
+                            <figure>
+                                <img src="./img/icn/icn_gnb_5.svg" alt="온라인 상담/예약">
+                            </figure>
+                            <h3>온라인 상담/예약</h3>
+                        </div>
+                        <p>
+                            맞춤형 상담과 예약을 통해 반려동물의 성장 여정을 시작하세요.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="gnb_btm">
+            <div class="btn_closed_gnb">
+                <img src="./img/icn/icn_arrow.svg" alt="닫기 화살표">
+            </div>
+        </section>
+    </div>
+    <div class="btn_top">
+        <img src="./img/icn/icn_ArrowUp.svg" alt="위로가기 버튼">
+    </div>
+    <main>
+        <div class="station1 swiper">
+            <ul class="train swiper-wrapper">
+                <li class="swiper-slide">
+                    <video src="./video/hero (1).mp4" muted loop autoplay></video>
+                </li>
+                <li class="swiper-slide">
+                    <video src="./video/hero (2).mp4" muted loop autoplay></video>
+                </li>
+                <li class="swiper-slide">
+                    <video src="./video/hero (3).mp4" muted loop autoplay></video>
+                </li>
+                <li class="swiper-slide">
+                    <video src="./video/hero (4).mp4" muted loop autoplay></video>
+                </li>
+                <li class="swiper-slide">
+                    <video src="./video/hero (5).mp4" muted loop autoplay></video>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="station1_txt">
+                <h4><strong>포지티브,</strong> <br class="mobile"> 반려동물의 가능성을 믿습니다.</h4>
+                <p>작은 발걸음이 큰 변화를 만듭니다.<br>포지티브는 반려동물이 가진 가능성을 긍정적인 훈련으로 이끌어 더 행복한 일상을 만들어갑니다.</p>
+            </div>
+        </div>
+        <!-- type1 좌txt 우img -->
+        <div class="commonFrame type1">
+            <section class="type1_txt">
+                <h2 class="heading_font">
+                    <img src="./img/icn/PAWsitive.svg" alt="PAW-sitive">는
+                </h2>
+                <h2 class="heading_font"><strong>긍정적인</strong> 접근으로 <br class="pc">반려동물의 행동을 <br
+                        class="pc"><strong>성장</strong>시킵니다.</h2>
+                <span></span>
+                <p>반려동물의 행동 교정부터 보호자 교육까지, 맞춤형 접근으로 반려동물과 보호자 모두가 더 나은 일상을 누릴 수 있도록 돕겠습니다.</p>
+                <a href="#" class="btn_style ">포지티브 소개 바로가기</a>
+            </section>
+            <section class="type1_img">
+                <figure>
+                    <img src="./img/img1_intro.jpg" alt="포지티브는 긍정적인 접근으로
+                    반려동물의 행동을
+                    성장시킵니다.">
+                </figure>
+            </section>
+        </div>
+
+        <div class="commonFrame type2">
+            <h5>갤러리 & 후기</h5>
+            <h2 class="heading_font">
+                <strong>소중한 발자국,</strong> 함께 나누는 이야기
+            </h2>
+            <h3>반려동물과의 소중한 이야기를 나누며 더 나은 일상을 만들어가요.</h3>
+            <p>
+                반려동물과 함께한 행복한 순간과 소소한 일상을 나누는 공간입니다.<br>다양한 경험을 공유하고, 서로에게 도움이 되는 팁을 교환하며, 함께 성장하는 커뮤니티입니다.
+            </p>
+            <div class="type2_desc">
+                <section class="type2_img">
+                    <figure>
+                        <img src="./img/img2_gal.jpg" alt="눈빛만 봐도 알겠어요,사랑받고 있다는 걸">
+                    </figure>
+                </section>
+                <section class="type2_txt">
+                    <div class="review_txt">
+                        <h2>눈빛만 봐도 알겠어요,사랑받고 있다는 걸</h2>
+                        <div class="review_info">
+                            <span>LittleMiracles</span>
+                            <span>2024-11-26</span>
+                        </div>
+                        <div class="review_desc">
+                            처음 우리 아이를 집에 데려왔을 때는 정말 걱정도 많았고, 어떻게 잘 돌봐줘야 할지 몰라서 두려웠어요. 하지만 하루하루 함께하면서 이 아이가 주는 행복이 얼마나 큰지
+                            알게 됐습니다. 아침에 일어나면 가장 먼저 꼬리 흔들며 반겨주는 모습, 산책 중에 너무 즐거워하는 표정, 그리고 밤에 내 옆에 와서 조용히 앉아 있는 모습이 정말
+                            사랑스러워요. <br> 사실 처음엔 훈련도 제대로 못해서 걱정이 많았는데, 조금씩 서로 배워가면서 아이의 행동도 많이 좋아졌어요. 가끔 실수도 하고 장난을 치지만,
+                            그만큼 제
+                            삶에 웃음을 주는 존재가 된 것 같아요. 반려동물과 함께하는 일상이 얼마나 소중한지 다시 한 번 느끼게 되었습니다. 우리 아이와 함께하는 시간은 그 어떤 것보다
+                            소중하고, 그 작은 발자국 소리가 하루를 채워주는 것 같아요. 앞으로도 많은 추억을 쌓아가고 싶어요. 정말 반려동물과 함께 사는 행복을 다시 한 번 깨달은
+                            하루였습니다.
+                        </div>
+                    </div>
+                    <div class="recommand">
+                        <h3>추천 커뮤니티 게시물</h3>
+                        <ul class="reco_list">
+                            <li>
+                                <figure>
+                                    <img src="./img/img3_reco.jpg" alt="사랑이 자라는 공간, 우리 집">
+                                </figure>
+                                <p>사랑이 자라는 공간, 우리 집</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="./img/img4_reco.jpg" alt="네 개의 발자국, 한 가족의 이야기">
+                                </figure>
+                                <p>네 개의 발자국, 한 가족의 이야기</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="./img/img5_reco.jpg" alt="반려동물과 함께 성장하는 하루">
+                                </figure>
+                                <p>반려동물과 함께 성장하는 하루</p>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="./img/img6_reco.jpg" alt="우리 강아지의 사랑스러운 순간들">
+                                </figure>
+                                <p>우리 강아지의 사랑스러운 순간들</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="recommand_block">
+                <h3>추천 커뮤니티 게시물</h3>
+                <ul class="reco_list">
+                    <li>
+                        <figure>
+                            <img src="./img/img3_reco.jpg" alt="사랑이 자라는 공간, 우리 집">
+                        </figure>
+                        <p>사랑이 자라는 공간, 우리 집</p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/img4_reco.jpg" alt="네 개의 발자국, 한 가족의 이야기">
+                        </figure>
+                        <p>네 개의 발자국, 한 가족의 이야기</p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/img5_reco.jpg" alt="반려동물과 함께 성장하는 하루">
+                        </figure>
+                        <p>반려동물과 함께 성장하는 하루</p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/img6_reco.jpg" alt="우리 강아지의 사랑스러운 순간들">
+                        </figure>
+                        <p>우리 강아지의 사랑스러운 순간들</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="commonFrame type3">
+            <section class="station2 swiper">
+                <ul class="train swiper-wrapper">
+                    <li class="swiper-slide"><img src="./img/img2_gal.jpg" alt=""></li>
+                    <li class="swiper-slide"><img src="./img/img3-reco.jpg" alt=""></li>
+                    <li class="swiper-slide"><img src="./img/img4-reco.jpg" alt=""></li>
+                    <li class="swiper-slide"><img src="./img/img5-reco.jpg" alt=""></li>
+                    <li class="swiper-slide"><img src="./img/img6-reco.jpg" alt=""></li>
+                </ul>
+            </section>
+            <section class="station3 swiper">
+                <ul class="train swiper-wrapper">
+                    <li class="swiper-slide">
+                        <h3>눈빛만 봐도 알겠어요,사랑받고 있다는 걸</h3>
+                        <div class="info">
+                            <p>LittleMiracles</p>
+                            <p>2024-11-26</p>
+                        </div>
+                        <div class="st3_train_desc">
+                            처음 우리 아이를 집에 데려왔을 때는 정말 걱정도 많았고, 어떻게 잘 돌봐줘야 할지 몰라서 두려웠어요. 하지만 하루하루 함께하면서 이 아이가 주는 행복이 얼마나 큰지
+                            알게 됐습니다. 아침에 일어나면 가장 먼저 꼬리 흔들며 반겨주는 모습, 산책 중에 너무 즐거워하는 표정, 그리고 밤에 내 옆에 와서 조용히 앉아 있는 모습이 정말
+                            사랑스러워요. <br> 사실 처음엔 훈련도 제대로 못해서 걱정이 많았는데, 조금씩 서로 배워가면서 아이의 행동도 많이 좋아졌어요. 가끔 실수도 하고 장난을 치지만,
+                            그만큼 제
+                            삶에 웃음을 주는 존재가 된 것 같아요. 반려동물과 함께하는 일상이 얼마나 소중한지 다시 한 번 느끼게 되었습니다. 우리 아이와 함께하는 시간은 그 어떤 것보다
+                            소중하고, 그 작은 발자국 소리가 하루를 채워주는 것 같아요. 앞으로도 많은 추억을 쌓아가고 싶어요. 정말 반려동물과 함께 사는 행복을 다시 한 번 깨달은
+                            하루였습니다.
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <h3>사랑이 자라는 공간, 우리 집</h3>
+                        <div class="info">
+                            <p>LunaMoon</p>
+                            <p>2024.12.01</p>
+                        </div>
+                        <div class="st3_train_desc">
+                            우리 집에 고양이 ‘미오’가 온 지도 벌써 6개월이 지났어요. 처음엔 낯설어하던 아이가 이제는 집 구석구석을 자기 공간처럼 누비고 다닙니다. 포지티브 훈련 프로그램
+                            덕분에 미오의 과도한 긁기 습관도 많이 줄었어요. 특히, 긍정적인 방식으로 가르쳐서인지 미오도 스트레스를 덜 받는 것 같아요. 지금은 제가 부르면 바로 달려오는
+                            귀여운 모습까지 보여줘요. 포지티브 덕분에 우리 집은 고양이와 사람이 함께 조화를 이루는 정말 따뜻한 공간이 되었어요.
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <h3>네 개의 발자국, 한 가족의 이야기</h3>
+                        <div class="info">
+                            <p>SunnyPaws</p>
+                            <p>2024.12.05</p>
+                        </div>
+                        <div class="st3_train_desc">
+                            우리 집 강아지 ‘코코’는 정말 에너지가 넘치는 아이였어요. 그러나 그 에너지가 때로는 통제가 어려울 때도 있었죠. 포지티브를 통해 코코에게 맞는 훈련을 진행했더니,
+                            이제는 산책 중에도 제 옆에서 조용히 걷는 모습을 볼 수 있게 되었어요. 훈련 과정이 강압적이지 않아 코코도 행복하게 배워나갔던 것 같아요. 코코와의 일상에서 생긴
+                            작은 변화들이 우리 가족의 행복을 더 크게 만들어 주고 있어요.
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <h3>반려동물과 함께 성장하는 하루</h3>
+                        <div class="info">
+                            <p>BellaJourney</p>
+                            <p>2024.12.08</p>
+                        </div>
+                        <div class="st3_train_desc">
+                            처음 강아지 ‘루루’를 입양했을 때, 사실 좀 막막했어요. 어떻게 가르쳐야 할지, 무엇이 올바른 방식인지 몰랐거든요. 포지티브 훈련 프로그램은 초보 보호자인 저에게
+                            정말 큰 도움을 줬습니다. 루루는 훈련을 통해 더 안정적이고 자신감 있는 아이로 자랐어요. 보호자로서 저도 반려동물에 대한 이해가 깊어지게 되었고요. 루루와 함께
+                            성장해가는 하루하루가 정말 소중하게 느껴집니다.
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <h3>우리 강아지의 사랑스러운 순간들</h3>
+                        <div class="info">
+                            <p>BellaJourney</p>
+                            <p>2024.12.08</p>
+                        </div>
+                        <div class="st3_train_desc">
+                            ‘바비’는 처음에 낯가림이 심하고 소심한 강아지였어요. 다른 강아지를 보면 꼬리를 내리고 숨는 일이 많았죠. 그런데 포지티브의 맞춤 훈련을 통해 바비가 점점 변해가는
+                            걸 볼 수 있었어요. 이젠 산책 중에도 자신감 있게 다른 강아지들과 어울릴 줄 알게 되었답니다. 매일 조금씩 더 밝아지는 바비의 모습을 보면서, 제가 선택한 훈련이
+                            정말 옳았다는 생각이 들어요. 바비의 사랑스러운 순간들을 더 많이 발견하고 싶어요.
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="station4 swiper">
+                    <h3>추천 커뮤니티 게시물</h3>
+                    <ul class="reco_list swiper-wrapper">
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./img/img2_gal.jpg" alt="눈빛만 봐도 알겠어요,사랑받고 있다는 걸">
+                            </figure>
+                            <p>눈빛만 봐도 알겠어요,사랑받고 있다는 걸</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./img/img3_reco.jpg" alt="사랑이 자라는 공간, 우리 집">
+                            </figure>
+                            <p>사랑이 자라는 공간, 우리 집</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./img/img4_reco.jpg" alt="네 개의 발자국, 한 가족의 이야기">
+                            </figure>
+                            <p>네 개의 발자국, 한 가족의 이야기</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./img/img5_reco.jpg" alt="반려동물과 함께 성장하는 하루">
+                            </figure>
+                            <p>반려동물과 함께 성장하는 하루</p>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./img/img6_reco.jpg" alt="우리 강아지의 사랑스러운 순간들">
+                            </figure>
+                            <p>우리 강아지의 사랑스러운 순간들</p>
+                        </li>
+                    </ul>
+                </section>
+        </div> -->
+        <div class="commonFrame type4">
+            <h5>훈련 프로그램</h5>
+            <h2 class="heading_font">
+                반려동물의 <strong>가능성</strong>을<br class="mobile"> 이끄는 <strong>맞춤 훈련</strong>
+            </h2>
+            <h3>반려동물의 성격과 필요에 맞춘 훈련으로, 더 나은 행동과 관계를 만들어갈 수 있습니다</h3>
+            <p>
+                반려동물의 성격과 필요에 맞춘 맞춤형 훈련을 제공합니다. <br>포지티브 훈련법으로 기초부터 고급까지, 문제 행동 교정에서 사회화까지 반려동물의 성장을 돕습니다. <br>모든 훈련은 보호자와 함께하며,
+                더 나은 일상과 관계를 만들어가는 과정입니다.
+            </p>
+            <a href="#" class="btn_style fill">훈련 프로그램 알아보기</a>
+
+            <ul class="prog_img_list">
+                <li><img src="./img/img7_prog.jpg" alt="프로그램1"></li>
+                <li><img src="./img/img8_prog.jpg" alt="프로그램2"></li>
+                <li><img src="./img/img9_prog.jpg" alt="프로그램3"></li>
+            </ul>
+        </div>
+        <div class="commonFrame type5">
+            <div class="type5_flex">
+                <div class="type5_left">
+                    <h5>자주 묻는 질문</h5>
+                    <h2 class="heading_font">
+                        <strong>궁금증,</strong><br> 해결하세요!
+                    </h2>
+                    <h3>훈련이나 서비스에 대해 궁금하신가요?<br>자주 묻는 질문과 답변을 확인하고 더 많은 정보를 얻어보세요.<br>찾으시는 답이 없을 경우, 언제든 문의하시면 친절히 안내드리겠습니다.</h3>
+                    <form action="#" class="faq_form">
+                        <label for="search"></label>
+                        <input type="text" id="search" placeholder="검색창에 키워드를 입력하면 필요한 답변을 확인할 수 있습니다.">
+                        <button type="submit" class="btn_search">
+                            <img src="./img/icn/icn_detail.svg" alt="돋보기 모양 검색 버튼">
+                        </button>
+                    </form>
+                </div>
+                <div class="type5_right">
+                    <p>훈련과 서비스에 대해 가장 자주 묻는 질문을 모았습니다.필요한 답변을 빠르게 확인해보세요!</p>
+                    <dl class="faq_ex">
+                        <dt>Q. 반려동물 훈련은 어떤 방식으로 진행되나요?</dt>
+                        <dd>A. 포지티브는 긍정 강화 훈련 방식을 기반으로 진행합니다.<br>반려동물이 스트레스를 받지 않도록 과학적이고 안전한 접근법을 적용하며, 각 반려동물의 성격과 특성에 맞는 맞춤형 훈련을 제공합니다.</dd>
+                    </dl>
+                    <dl class="faq_ex">
+                        <dt>Q. 반려동물 훈련은 어떤 방식으로 진행되나요?</dt>
+                        <dd>A. 포지티브는 긍정 강화 훈련 방식을 기반으로 진행합니다.<br>반려동물이 스트레스를 받지 않도록 과학적이고 안전한 접근법을 적용하며, 각 반려동물의 성격과 특성에 맞는 맞춤형 훈련을 제공합니다.</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="btn_section">
+                <a href="#" class="btn_style border">더 많은 FAQ 보러가기</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="commonFrame">
+            <div class="footer_left">
+                <ul class="info">
+                    <li><a href="#">이용약관</a></li>
+                    <li class="color"><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">예약 및 상담</a></li>
+                </ul>
+                <p>운영 시간: 평일 오전 9시 ~ 오후 6시 (주말 및 공휴일 휴무)</p>
+                <ul class="company">
+                    <li>서울특별시 강남구 테라스길 45, 3층</li>
+                    <li>사업자등록번호: 123-45-67890</li>
+                </ul>
+                <ul class="contact">
+                    <li>대표전화: 02-9876-5432</li>
+                    <li>이메일: contact@pawsitive.co.kr</li>
+                </ul>
+            </div>
+            <div class="footer_right">
+                <h1>
+                    <a href="#">
+                        <img src="./img/icn/logo-ver-foot.svg" alt="PAW-sitive">
+                    </a>
+                </h1>
+                <p>"반려동물과 함께 만드는 긍정적인 변화, PAWSitive."</p>
+                <ul class="sns">
+                    <li><a href="#"><img src="./img/icn/icn_insta.svg" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="./img/icn/icn_facebook.svg" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="./img/icn/icn_youtube.svg" alt="유튜브"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/canvas.js"></script>
+</body>
+
+</html>

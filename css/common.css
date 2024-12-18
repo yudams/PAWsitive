@@ -1,0 +1,146 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+@font-face {
+    font-family: 'HakgyoansimDunggeunmisoTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimDunggeunmisoTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root{
+    --font-size-pc:20px;
+    --font-size-tab:18px;
+    --font-size-mobile:14px;
+
+    --main-color:#FFA500;
+    --hover-color:#E69500;
+    --light-color:#FFF6E6;
+    --light-acticve-color:#FFF2D9;
+    --dark-color:#333333;
+    --heading-font:'HakgyoansimDunggeunmisoTTF-B';
+
+    --font-thin: 300;
+    --font-medium: 400;
+    --font-bold: 600;
+    --font-black: 900;
+
+    --space-xsmall: .5rem;
+    --space-small: 1rem;
+    --space-middle: 2rem;
+    --space-large: 4rem;
+    --space-xlarge: 6rem;
+    --space-2xlarge: 10rem;
+
+    --space-back: 5rem;
+
+    --border-radius: 4rem;
+    --border-radiusS: 1rem;
+}
+
+html{
+    font-size: var(--font-size-pc);
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    line-height: 1.4;
+}
+
+.heading_font{
+    font-family: 'HakgyoansimDunggeunmisoTTF-B';
+}
+/* main h1,h2,h3,h4,h5,h6{
+    color: var(--dark-color);
+} */
+h2{
+    font-size: 3rem;
+    font-weight: var(--font-bold);
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: var(--font-bold);
+}
+h5{
+    font-size: 1.4rem;
+    font-weight: var(--font-black);
+}
+
+h4{
+    font-size: 2.5rem;
+    font-weight: var(--font-black);
+    line-height: 1.1;
+}
+strong{
+    color: var(--main-color);
+}
+
+/* ///////////버튼 스타일////////// */
+.btn_style{
+    font-size: .9rem;
+    padding: .5rem 2rem;
+    display: inline-block;
+    border: .1rem solid #000;
+    border-radius: 5em;
+    background-color: #fff;
+}
+.btn_style:hover{
+    color: var(--main-color);
+    border: 0.1rem solid #333;
+}
+.btn_style:active{
+    border: 0.1rem solid var(--main-color);
+}
+
+.btn_style.border{
+    border: 0.1rem solid var(--main-color);
+}
+.btn_style.border:hover{
+    border: 0.1rem solid var(--main-color);
+}
+.btn_style.border:active{
+    border: 0.1rem solid var(--main-color);
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.btn_style.fill{
+    border: 0.1rem solid var(--main-color);
+    background-color: var(--main-color);
+    color: #fff;
+}
+.btn_style.fill:hover{
+    border: 0.1rem solid var(--main-color);
+    color: #333;
+}
+.btn_style.fill:active{
+    border: 0.1rem solid var(--main-color);
+    background-color: var(--hover-color);
+    color: #333;
+}
+
+.btn_style.white{
+    border: .1rem solid var(--light-acticve-color);
+    color: var(--light-acticve-color);
+}
+.btn_style.white:hover{
+    border: .1rem solid var(--main-color);
+    color: var(--main-color);
+}
+.btn_style.white:active{
+    border: .1rem solid var(--main-color);
+    background-color: var(--main-color);
+    color: var(--light-acticve-color);
+
+}
+
+/* ////////////////////////////////// */
+
+.commonFrame{
+    margin-left:5rem;
+    margin-right:5rem;
+}
+
+main>*{
+    margin-bottom: var(--space-2xlarge);
+}
+/* main>*:last-child{
+    margin-bottom: 0;
+} */

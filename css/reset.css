@@ -1,0 +1,35 @@
+/* 스타일 초기화 - 각각의 태그에 설정되어 있는 기본 스타일을 제거 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: inherit;
+    font-weight: inherit;
+    /* 글씨 크기를 부모태그에 적용된 글씨 크기로 적용하겠다 - 상속시키겠다(inherit) */
+    /* 기본적으로 적용되어 있는 모든 스타일(폰트 크기, 굵기)을 해제해야 나중에 변경이 용이함 */
+    line-height: 1;
+}
+
+/* 상속 스타일로 설정하는 이유는 영역태그에 글씨 관련 속성을 지정했을 때 그 안에 자식태그나 자손태그 혹은 글자의 스타일을 한번에 적용 혹은 수정하기 편하게 하기 위함이다. */
+
+strong,b{font-weight: inherit;}
+i,em,address{font-style: inherit;}
+a{color:inherit; text-decoration: inherit;}
+
+ul,ol{list-style: none;}
+
+img,video{max-width: 100%;}
+
+input{outline: 0;}
+
+table{border-collapse: collapse;}
+
+form,input,label,select,option,textarea{font-family: inherit; font-weight: inherit;}
+/* 선택했을 대 가장자리에 보더가 없어지는 소스코드 */
+textarea,input,option{outline: 0;}
+
+button{
+    font-family: inherit;
+}
