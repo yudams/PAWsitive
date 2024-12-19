@@ -374,21 +374,18 @@ main>.station1>.station1_txt {
     overflow: hidden;
     height: 100%;
     box-shadow: 0 0 5px rgba(51, 51, 51, 0.5);
-    border: 1px solid red;
-
 }
 
 .type2_img figure {
     width: 100%;
     height: 100%;
-    border: 1px solid blue;
+    line-height: 0;
 }
 
 .type2_img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 1px solid green;
 }
 
 .type2_txt {
@@ -701,7 +698,7 @@ main>.station1>.station1_txt {
 }
 
 .faq_ex:hover {
-    max-height: 10rem;
+    max-height: 20rem;
 
     &>dt {
         margin-top: 0;

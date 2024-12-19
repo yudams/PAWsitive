@@ -128,7 +128,7 @@
 
     footer {
         height: auto;
-        padding-bottom: var(--space-middle);
+        padding-bottom: var(--space-large);
         text-align: center;
 
         &>.commonFrame {
@@ -141,6 +141,7 @@
 
         & > *{
             justify-content: center;
+            flex-direction: column;
         }
     }
     .footer_right{
@@ -154,8 +155,12 @@
         font-size: 14px;
     }
 
+    #bouncingBalls{
+        display: none;
+    }
+
     div.station1 {
-        height: 844px;
+        height: 80vh;
     }
 
     br.mobile {
@@ -318,7 +323,14 @@
     .type5_right>.faq_ex>dt{
         font-size: 1rem;
         padding: 0;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        margin-left: .5rem;
+        padding-right: 2.2rem;
+        /* border: 1px solid red; */
     }
+
 
 
 }
