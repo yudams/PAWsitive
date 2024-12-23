@@ -1,0 +1,345 @@
+@media (max-width:1920px) {
+    .mo_logo {
+        display: none;
+    }
+
+    br.mobile {
+        display: none;
+    }
+    .recommand_block{
+        display: none;
+    }
+}
+
+@media (max-width:1500px) {
+    .mo_logo {
+        display: none;
+    }
+
+    .call {
+        grid-column: 1/6;
+    }
+
+    .tnb {
+        grid-column: 9/13;
+    }
+
+    .gnb_mid {
+        margin: 0 var(--space-small);
+    }
+
+
+    .type2_desc {
+        height: 100%;
+    }
+
+    .recommand{
+        display: none;
+    }
+    .recommand_block{
+        display: block;
+    }
+    .review_txt{
+        height: 100%;
+    }
+
+    .commonFrame.type5>.type5_flex {
+        flex-direction: column;
+        gap: var(--space-xsmall);
+        align-items: center;
+        justify-content: center;
+    }
+    .faq_form {
+        width: 100%;
+        padding: 0 var(--space-middle);
+        display: flex;
+        & > * {
+            flex-shrink: 0;
+        }
+    }
+    .type5_left{
+        text-align: center;
+    }
+    .type5_right {
+        margin-top: var(--space-middle);
+        & > p{
+            text-align: center;
+        }
+
+    }
+}
+
+@Media (max-width:1280px) {
+    .commonFrame.type1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .type1_txt {
+        text-align: center;
+        width: 60%;
+    }
+
+    .type1_img {
+        height: 20rem;
+        width: 100%;
+    }
+
+    .type1_img figure {
+        width: 100%;
+    }
+
+}
+
+@Media (max-width:1024px) {
+    html {
+        font-size: 18px;
+    }
+
+    .commonFrame {
+        margin-left: var(--space-middle);
+        margin-right: var(--space-middle);
+    }
+
+    div.station1 {
+        height: 874px;
+        margin-left: var(--space-middle);
+        margin-right: var(--space-middle);
+    }
+
+    .station1_txt {
+        transform: translateX(-50%);
+        width: 80%;
+        word-break: keep-all;
+    }
+
+    .station1 video:nth-child(3) {
+        object-position: 0% 20%;
+    }
+
+    .review_desc {
+        -webkit-line-clamp: 5;
+    }
+
+    .review_txt {
+        padding: 2.5rem;
+    }
+
+    footer {
+        height: auto;
+        padding-bottom: var(--space-large);
+        text-align: center;
+
+        &>.commonFrame {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .footer_left{
+        text-align: center;
+
+        & > *{
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    .footer_right{
+        margin-bottom: var(--space-middle);
+    }
+
+}
+
+@Media (max-width:768px) {
+    html {
+        font-size: 14px;
+    }
+
+    #bouncingBalls{
+        display: none;
+    }
+
+    div.station1 {
+        height: 80vh;
+    }
+
+    br.mobile {
+        display: inline;
+    }
+
+    .gnb_wrap {
+        grid-template-rows: 5%;
+        gap: 1rem;
+    }
+
+    .mo_logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10rem;
+    }
+
+    .mo_logo img {
+        height: 5rem;
+        bottom: 10rem;
+    }
+
+    .gnb_btm {
+        background-color: transparent;
+        top: 0;
+        /* transform: translateX(-50%); */
+        box-shadow: none;
+    }
+
+    .gnb_btm:hover {
+        background-color: transparent;
+    }
+
+    .gnb_top {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .call {
+        display: none
+    }
+
+    .tnb {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        font-size: 1.4rem;
+        z-index: 100;
+        background-color: var(--light-color);
+        padding: 2rem 5rem;
+        border-radius: 5rem 5rem 0 0;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-weight: var(--font-bold);
+        box-shadow: 0 0 10px rgba(51, 51, 51, 0.2);
+    }
+
+
+    .gnb_mid>ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        /* justify-content: space-between;
+        padding: 0 var(--space-back); */
+        /* height: 100%; */
+    }
+
+    .gnb_mid li {
+        height: 100%;
+        width: 96%;
+        margin: 0 auto;
+        overflow: hidden;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: flex-start;
+    }
+
+    .gnb_mid li a {
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .gnb_mid li a>p {
+        width: 80%;
+        text-align: left;
+    }
+
+    .gnb_mid li:hover {
+        transform: scaleY(105%);
+    }
+
+    .gnb_mid .gnb_title>figure {
+        width: auto;
+    }
+
+    .gnb_mid li a img {
+        height: 4rem;
+        margin-bottom: 0;
+    }
+
+    .gnb_mid li a>figure>img.pawsitive_img {
+        width: auto;
+        height: 4rem;
+    }
+
+    .gnb_title {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+        flex: 1;
+    }
+
+    .gnb_title h3 {
+        width: calc(100% - 5rem);
+    }
+
+    .gnb_title figure {
+        width: 100%;
+    }
+
+    .gnb_mid p {
+        display: none;
+    }
+
+    .gnb_mid li {
+        justify-content: center;
+    }
+
+    .type1_txt {
+        text-align: center;
+        width: auto;
+        word-break: break-all;
+    }
+
+    .type2_desc {
+        display: block;
+    }
+
+    .type2_desc>.type2_txt {
+        margin-top: 1rem;
+    }
+
+    .recommand {
+        margin-top: 2rem;
+    }
+
+    .prog_img_list>li {
+        border-radius: var(--border-radiusS);
+    }
+    .type5_right>.faq_ex>dt{
+        font-size: 1rem;
+        padding: 0;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        margin-left: .5rem;
+        padding-right: 2.2rem;
+        /* border: 1px solid red; */
+    }
+
+
+
+}
+
+@Media (max-width:375px) {
+    br.pc {
+        display: none;
+    }
+    .type1_txt img {
+        height: 4rem;
+    }
+}
